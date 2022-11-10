@@ -1,0 +1,908 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header>
+   <div class="search-bar-wrapper ">
+    <nav class="navbar navbar-expand-lg navbar-light p-0 ">
+        <div class="container-fluid fs-6 fw-bold">
+          <a class="navbar-brand fw-bold fs-6" href="#"><i class="bi bi-house-door"></i> PROPERTIES </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+              <li class="nav-item fw-bold fs-6 ">
+                <a class="nav-link " href="#" >PLOT FINDER</a>
+              </li>
+
+              <li class="nav-item fw-bold fs-6  ">
+                <a class="nav-link " href="#" >AREA GUIDE</a>
+              </li>
+              <li class="nav-item fw-bold fs-6">
+                <a class="nav-link " href="#" >BLOG</a>
+              </li>
+              
+              
+              
+              <li class="nav-item dropdown fw-bold fs-6">
+                <a class="nav-link dropdown-toggle fs-6" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white ;">
+                  TOOLS </a>
+              
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a style="color: black ;" class="dropdown-item mt-2" href="#">Maps</a></li>
+                  <li><a style="color: black ;" class="dropdown-item mt-2" href="#">Forum</a></li>
+                  <li><a style="color: black ;" class="dropdown-item mt-2" href="#">Index</a></li>
+                  
+                  <li><a style="color: black ;" class="dropdown-item mt-2" href="#">Trends</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown fs-6 fw-bold">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white ;">
+                  MORE
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a style="color: black ;" class="dropdown-item" href="#">Home Loan Calculator </a></li>
+                  <li><a style="color:black;" class="dropdown-item" href="#">Area Unit Converter</a></li>
+                  
+                  <li><a style="color:black ;" class="dropdown-item" href="#">Land Record Pages</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            
+            <form class="d-flex">
+              <input style="width: 130px!important; " class="form-control me-2 position-relative focus-outine-0!important" type="search" placeholder="Property ID" aria-label="Search " >
+                <a style="color: black;" href=""><i style="right: 293px; bottom: 8px" class="bi bi-search position-absolute " ></i></a>
+              
+              <button class="btn btn-outline-success bg-light " type="submit">Search</button>
+              <a href=""><img width="60px" class="px-3" src="./img/urdu.png" alt=""></a>
+              <a href=""><img width="55px" class="px-3" src="./img/004-pakistan.png" alt=""></a>
+              <a href=""><img width="40px" class="px-2" src="./icon/003-settings.png" alt=""></a>
+              <a href=""><img width="40px" class="px-2" src="./icon/001-user.png" alt=""></a>
+              
+            </form>
+          </div>
+        </div>
+      </nav>
+   </div>
+   <!-- /.search-bar-wrapper -->
+   <div class="bottom-nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+        <div class="container-fluid  ">
+          <a class="navbar-brand" href="#"><img src="./img/zameen.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active ms-8 me-2" aria-current="page" href="#">BUY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-2 me-2 fs-6" href="#">HONES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-2 me-2" href="#"> COMERCIAL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-2 me-2" href="#">RENT</a>
+              </li>
+              <li class="nav-itemms-2 me-2">
+                <a class="nav-link" href="#"> AGENTS</a>
+              </li>
+              <li class="nav-itemms-2 me-2">
+                <a class="nav-link" href="#"> NEW PROJECTS</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+   </div>
+   <!-- /.bottom-nav-bar -->
+
+   
+</header>
+<section class="hero-class">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+       
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/home.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+              <button type="button" class="btn btn-outline-light rounded px-2 ms-2 me-2">Primary</button>
+              <button type="button" class="btn btn-outline-light rounded px-2 ms-2 me-2">Primary</button>
+              <button type="button" class="btn btn-outline-light rounded px-2 ms-2 me-2">Primary</button>
+           
+              <nav class="navbar navbar-light bg-dark mt-3 "  >
+                
+                <form class="container-fluid justify-content-start">
+                  <input class="form-control me-2 ms-2 ;" type="search" placeholder="Search" aria-label="Search">
+                      <input class="form-control me-2 ms-2 ;" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn   " type="button">Main button</button>
+                  
+                </form>
+                <div class="down-search d-flex">
+                  <ul class="d-flex m-0 p-0 ps-4">
+                  <li >
+                    <a  class="nav-link" href="#">Features</a>
+                  </li>
+                  <li>
+                    <a  class="nav-link" href="#">Features</a>
+                  </li>
+                  <li>
+                    <a   class="nav-link" href="#">Features</a>
+                  </li>
+                  <li>
+                    <a  class="nav-link" href="#">Features</a>
+                  </li>
+                  </ul>
+                </div>
+              </nav> </div>
+          </div>
+      </div>
+</section>
+<!-- /.hero-class -->
+
+
+<main>
+  <section class="explore-cards">
+    <div class="container pt-5 pb-5">
+      <h4 class="pb-2" >Explore more on Zameen</h4>
+      <div class="row border-0">
+      <div class="col-md-3 mb-5">
+        <div class="card mb-3 border-0" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 d-flex" style="background-color:#fdf8ee; border-radius:12px; " >
+              <img style="padding-left: 14px; padding-right: 14px;" src="./img/project.svg" class="img-fluid rounded-start align-item-centre" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body pt-0 pe-0 ">
+                <h5 style="width: 68px" class="card-title ">New Project</h5>
+                <p style="font-size: 13px" class="card-text ">The Best Investment opportunity</p>
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div><!-- /.col-md-3 -->
+      <div class="col-md-3">
+        <div class="card mb-3 border-0" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 d-flex" style="background-color:#f4f9f7; border-radius:12px;" >
+              <img style="padding-left: 14px; padding-right: 14px;" src="./img/home loan calculator.svg" class="img-fluid rounded-start align-item-centre" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body pt-0 pe-0 ">
+                <h5 class="card-title ">Home Loan Calculator</h5>
+                <p style="font-size: 13px" class="card-text ">Find Affordable Loans Pakage</p>
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div><!-- /.col-md-3 -->
+      <div class="col-md-3">
+        <div class="card mb-3 border-0" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 d-flex" style="background-color:#fef7f7; border-radius:12px;" >
+              <img style="padding-left: 14px; padding-right: 14px;" src="./img/area guide.svg" class="img-fluid rounded-start align-item-centre" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body pt-0 pe-0 ">
+                <h5 style="width: 54px" class="card-title ">Area Guide</h5>
+                <p style="font-size: 13px" class="card-text ">Explore Housing Society In Pakistan </p>
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div><!-- /.col-md-3 -->
+      <div class="col-md-3">
+        <div class="card mb-3 border-0" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 d-flex" style="background-color:#f6faf9; border-radius:12px;" >
+              <img style="padding-left: 14px; padding-right: 14px;" src="./img/plot finder.svg" class="img-fluid rounded-start align-item-centre" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body pt-0 pe-0 ">
+                <h5  style="width: 58px" class="card-title ">Plots Finder</h5>
+                <p style="font-size: 13px" class="card-text ">Find plots in any society</p>
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div><!-- /.col-md-3 -->
+      <div class="col-md-3">
+        <div class="card mb-3 border-0" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 d-flex" style="background-color:#f5f7ff; border-radius:12px;" >
+              <img style="padding-left: 14px; padding-right: 14px;" src="./img/stattistics.svg" class="img-fluid rounded-start align-item-centre" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body pt-0 pe-0 ">
+                <h5 style="width: 80px"  class="card-title ">Property Index</h5>
+                <p style="font-size: 13px" class="card-text ">Track Changees In real estate prices</p>
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div><!-- /.col-md-3 -->
+      <div class="col-md-3">
+        <div class="card mb-3 border-0" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 d-flex" style="background-color: #ecf8f7; border-radius:12px;" >
+              <img style="padding-left: 14px; padding-right: 14px;" src="./img/coverter calculator.svg" class="img-fluid rounded-start align-item-centre" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body pt-0 pe-0 ">
+                <h5 class="card-title ">Area Unit Converter</h5>
+                <p style="font-size: 13px" class="card-text ">Convert any unit instantly</p>
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div><!-- /.col-md-3 -->
+      <div class="col-md-3">
+        <div class="card mb-3 border-0" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 d-flex" style="background-color:#f1f9fe; border-radius:12px;" >
+              <img style="padding-left: 14px; padding-right: 14px;" src="./img/home finder.svg" class="img-fluid rounded-start align-item-centre" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body pt-0 pe-0 ">
+                <h5 class="card-title ">Land Record Pages</h5>
+                <p style="font-size: 13px" class="card-text ">Findout Ownership detail of any property</p>
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div><!-- /.col-md-3 -->
+      <div class="col-md-3">
+        <div class="card mb-3 border-0" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 d-flex" style="background-color:#f9f5ff; border-radius:12px;" >
+              <img style="padding-left: 14px; padding-right: 14px;" src="./img/increase rate.svg" class="img-fluid rounded-start align-item-centre" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body pt-0 pe-0 ">
+                <h5 style=" width:80px" class="card-title ">Property trends</h5>
+                <p style="font-size: 13px" class="card-text ">Finds popular areas to find property</p>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div><!-- /.col-md-3 -->
+      
+      </div><!-- /.row -->
+     
+    </div><!-- /.container -->
+  </section><!-- /.explore-cards -->
+  <section class="adverstisement">
+    <div class="container pt-5 pb-5">
+      <h4 class="pb-2">Titanium Agencies</h4>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card mb-3 border-0" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex"  >
+                <img style="padding-left: 14px; padding-right: 14px;" src="./img/dumbell 4.jpg" class="img-fluid rounded-start align-item-centre" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body pt-0 pe-0 ">
+                  <h5  class="card-title ">Area Guide</h5>
+                  <p style="font-size: 13px" class="card-text ">Explore Housing Society In Pakistan </p>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-3 -->
+        <div class="col-md-3">
+          <div class="card mb-3 border-0" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex"  >
+                <img style="padding-left: 14px; padding-right: 14px;" src="./img/dumbell 4.jpg" class="img-fluid rounded-start align-item-centre" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body pt-0 pe-0 ">
+                  <h5  class="card-title ">Area Guide</h5>
+                  <p style="font-size: 13px" class="card-text ">Explore Housing Society In Pakistan </p>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-3 -->
+        <div class="col-md-3">
+          <div class="card mb-3 border-0" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex"  >
+                <img style="padding-left: 14px; padding-right: 14px;" src="./img/dumbell 4.jpg" class="img-fluid rounded-start align-item-centre" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body pt-0 pe-0 ">
+                  <h5  class="card-title ">Area Guide</h5>
+                  <p style="font-size: 13px" class="card-text ">Explore Housing Society In Pakistan </p>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-3 -->
+        <div class="col-md-3">
+          <div class="card mb-3 border-0" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex"  >
+                <img style="padding-left: 14px; padding-right: 14px;" src="./img/dumbell 4.jpg" class="img-fluid rounded-start align-item-centre" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body pt-0 pe-0 ">
+                  <h5  class="card-title ">Area Guide</h5>
+                  <p style="font-size: 13px" class="card-text ">Explore Housing Society In Pakistan </p>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-3 -->
+        <div class="col-md-3">
+          <div class="card mb-3 border-0" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex"  >
+                <img style="padding-left: 14px; padding-right: 14px;" src="./img/dumbell 4.jpg" class="img-fluid rounded-start align-item-centre" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body pt-0 pe-0 ">
+                  <h5  class="card-title ">Area Guide</h5>
+                  <p style="font-size: 13px" class="card-text ">Explore Housing Society In Pakistan </p>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-3 -->
+        <div class="col-md-3">
+          <div class="card mb-3 border-0" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex"  >
+                <img style="padding-left: 14px; padding-right: 14px;" src="./img/dumbell 4.jpg" class="img-fluid rounded-start align-item-centre" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body pt-0 pe-0 ">
+                  <h5  class="card-title ">Area Guide</h5>
+                  <p style="font-size: 13px" class="card-text ">Explore Housing Society In Pakistan </p>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-3 -->
+        <div class="col-md-3">
+          <div class="card mb-3 border-0" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex"  >
+                <img style="padding-left: 14px; padding-right: 14px;" src="./img/dumbell 4.jpg" class="img-fluid rounded-start align-item-centre" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body pt-0 pe-0 ">
+                  <h5  class="card-title ">Area Guide</h5>
+                  <p style="font-size: 13px" class="card-text ">Explore Housing Society In Pakistan </p>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-3 -->
+        <div class="col-md-3">
+          <div class="card mb-3 border-0" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex"  >
+                <img style="padding-left: 14px; padding-right: 14px;" src="./img/dumbell 4.jpg" class="img-fluid rounded-start align-item-centre" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body pt-0 pe-0 ">
+                  <h5  class="card-title ">Area Guide</h5>
+                  <p style="font-size: 13px" class="card-text ">Explore Housing Society In Pakistan </p>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-3 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section><!-- /.adverstisement -->
+
+  <section class="zameen-projects">
+    <div style="background-image: linear-gradient(180deg,#e5f0fc,#fff);" class="container">
+      <nav class="navbar navbar-light pt-3 pb-3">
+        <div class="container-fluid">
+          <a class="navbar-brand"><h3>Titanium Agencies</h3> </a>
+          <form class="d-flex">
+            <a href="#" class="card-link">Another link</a>
+          </form>
+        </div>
+      </nav>
+      
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card border-0" style="width: 18rem;">
+            <img src="./img/real estate.jpg" class="card-img-top" alt="...">
+            <div class="card-body " style="background-image: linear-gradient(180deg,#e5f0fc,#fff);">
+              <a style="color:#222 ;" href="#" class="card-link text-decoration-none m-o p-0"> <h5 class="card-title fs-5 m-0 p-0">1.5 crore to 7.42 crore</h5></a>
+              
+              <a style="color:#222 ;" href="#" class="card-link text-decoration-none"> <h5 class="card-title fs-5">Naran Saif ul Malook Road</h5></a>
+              
+              <a style="color:#222 ;" href="#" class="card-link text-decoration-none"><p class="card-text fs-6">Naran Saif ul Malook Road</p> </a>
+              
+              <a style="color:#222 ;" href="#" class="card-link text-decoration-none"> <h5 style="font-size:14px ;" class="card-title"><i class="bi bi-house-door"></i>House Flats</h5></a>
+              <a style="color:#222 ;" href="#" class="card-link text-decoration-none m-0 p-o"> <h5 style="font-size:14px ;" class="card-title "><i class="bi bi-camera-reels"></i>460 to 12290 sq ft</h5></a>
+              
+              
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4">
+          <div class="card border-0" style="width: 18rem;">
+            <img src="./img/real estate.jpg" class="card-img-top" alt="...">
+            <div class="card-body " style="background-image: linear-gradient(180deg,#e5f0fc,#fff);">
+              <a style="color:#222 ;" href="#" class="card-link text-decoration-none m-o p-0"> <h5 class="card-title fs-5 m-0 p-0">1.5 crore to 7.42 crore</h5></a>
+              
+              <a style="color:#222 ;" href="#" class="card-link text-decoration-none"> <h5 class="card-title fs-5">Naran Saif ul Malook Road</h5></a>
+              
+              <a style="color:#222 ;" href="#" class="card-link text-decoration-none"><p class="card-text fs-6">Naran Saif ul Malook Road</p> </a>
+              
+              <a style="color:#222 ;" href="#" class="card-link text-decoration-none"> <h5 style="font-size:14px ;" class="card-title"><i class="bi bi-house-door"></i>House Flats</h5></a>
+              <a style="color:#222 ;" href="#" class="card-link text-decoration-none m-0 p-o"> <h5 style="font-size:14px ;" class="card-title "><i class="bi bi-camera-reels"></i>460 to 12290 sq ft</h5></a>
+              
+              
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4">
+          <div class="card border-0" style="width: 18rem;">
+            <img src="./img/real estate.jpg" class="card-img-top" alt="...">
+            <div class="card-body " style="background-image: linear-gradient(180deg,#e5f0fc,#fff);">
+              <a style="color:#222 ;" href="#" class="card-link text-decoration-none m-o p-0"> <h5 class="card-title fs-5 m-0 p-0">1.5 crore to 7.42 crore</h5></a>
+              
+              <a style="color:#222 ;" href="#" class="card-link text-decoration-none"> <h5 class="card-title fs-5">Naran Saif ul Malook Road</h5></a>
+              
+              <a style="color:#222 ;" href="#" class="card-link text-decoration-none"><p class="card-text fs-6">Naran Saif ul Malook Road</p> </a>
+              
+              <a style="color:#222 ;" href="#" class="card-link text-decoration-none"> <h5 style="font-size:14px ;" class="card-title"><i class="bi bi-house-door"></i>House Flats</h5></a>
+              <a style="color:#222 ;" href="#" class="card-link text-decoration-none m-0 p-o"> <h5 style="font-size:14px ;" class="card-title "><i class="bi bi-camera-reels"></i>460 to 12290 sq ft</h5></a>
+              
+              
+            </div>
+          </div>
+        </div><!-- /.col-md-4 -->
+       
+
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.zameen-projects -->
+  
+  <section>
+    . <div class="socia-platform">
+      <div class="container pt-3 pb-3">
+        <h5 class="pb-4 pt-2">Zameen Social</h5>
+        <div class="row">
+          <div style="width:25%!important ;" class="col-md-4 ">
+          
+
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./img/dumbell 4.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title text-break overflow-hidden fs-6">prime minister launched five youth focused program</h5>
+                    <p class="card-text"> 22 OCT 2022</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./img/dumbell 4.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title fs-6">prime minister launched five youth focused program</h5>
+                    <p class="card-text">22 OCT 2022</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.col-md-4 -->
+          <div style="width: 570px;" class="col-md-4 d-flex">
+<div class="card ms-2 me-2" style="width: 18rem;">
+  <img src="./img/buildind 4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, cupiditate.</p>
+  </div>
+</div>
+<div class="card ms-2 me-2" style="width: 18rem;">
+  <img src="./img/buildind 4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, voluptate.</p>
+  </div>
+</div>
+<div class="card ms-2 me-2" style="width: 18rem;">
+  <img src="./img/buildind 4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, sed?</p>
+  </div>
+</div>
+          </div><!-- /.col-md-4 -->
+          <div style="width:25%!important;" class="col-md-4">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./img/dumbell 4.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title text-break overflow-hidden fs-6">prime minister launched five youth focused program</h5>
+                    <p class="card-text"> 22 OCT 2022</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./img/dumbell 4.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title fs-6">prime minister launched five youth focused program</h5>
+                    <p class="card-text"> 22 OCT 2022 </p>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.col-md-4 -->
+          
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.socia-platform -->
+  </section>
+
+  <section>
+    <div class="popular-locations-wrapper">
+      <div class="container pt-5 pb-5">
+        <h3>POPULAR LOCATIONS</h3>
+        <div class="row">
+          <h6 class="pt-3 pb-2">Popular ities to  buy properties</h6>
+          <hr>
+          <div class="col-md-4">
+            <div class="list-group">
+              <ul>
+                <h4>HOUSES</h4>
+
+              <li><a href="">Lorem, ipsum.</a></li>
+              <li><a href="">Ipsa, sed?</a></li>
+              <li><a href="">Enim, nulla?</a></li>
+              <li><a href="">Voluptates, veniam?</a></li>
+              <li><a href="">Magni, dolorem!</a></li>
+              <li><a href="">Earum, dolor?</a></li>
+              <li><a href="">Ducimus, pariatur.</a></li>
+              <li><a href="">Consectetur, inventore.</a></li>
+            </ul>
+            </div>
+          </div>
+          <!-- /.col-md-4 -->
+          <div  class="col-md-4 ">
+            <div class="list-group mt-5">
+              <ul>
+              <li><a href="">Lorem, ipsum.</a></li>
+              <li><a href="">Ipsa, sed?</a></li>
+              <li><a href="">Enim, nulla?</a></li>
+              <li><a href="">Voluptates, veniam?</a></li>
+              <li><a href="">Magni, dolorem!</a></li>
+              <li><a href="">Earum, dolor?</a></li>
+              <li><a href="">Ducimus, pariatur.</a></li>
+              <li><a href="">Consectetur, inventore.</a></li>
+            </ul>
+            </div>
+          </div>
+          <!-- /.col-md-4 -->
+          <div class="col-md-4">
+            <div class="list-group">
+              <ul>
+                <h4>FLATS AND APARTMENTS</h4>
+              <li><a href="">Lorem, ipsum.</a></li>
+              <li><a href="">Ipsa, sed?</a></li>
+              <li><a href="">Enim, nulla?</a></li>
+              <li><a href="">Voluptates, veniam?</a></li>
+              <li><a href="">Magni, dolorem!</a></li>
+              <li><a href="">Earum, dolor?</a></li>
+              <li><a href="">Ducimus, pariatur.</a></li>
+              <li><a href="">Consectetur, inventore.</a></li>
+            </ul>
+            </div>
+          </div>
+          <!-- /.col-md-4 -->
+
+          <h6 class="pt-3 pb-2">popular cities to  buy properties</h6>
+          <hr>
+          <div class="col-md-4">
+            <div class="list-group">
+              <ul>
+              <li><a href="">Lorem, ipsum.</a></li>
+              <li><a href="">Ipsa, sed?</a></li>
+              <li><a href="">Enim, nulla?</a></li>
+              <li><a href="">Voluptates, veniam?</a></li>
+              <li><a href="">Magni, dolorem!</a></li>
+              <li><a href="">Earum, dolor?</a></li>
+              <li><a href="">Ducimus, pariatur.</a></li>
+              <li><a href="">Consectetur, inventore.</a></li>
+            </ul>
+            </div>
+          </div>
+          <!-- /.col-md-4 -->
+          <div  class="col-md-4 ">
+            <div class="list-group">
+              <ul>
+              <li><a href="">Lorem, ipsum.</a></li>
+              <li><a href="">Ipsa, sed?</a></li>
+              <li><a href="">Enim, nulla?</a></li>
+              <li><a href="">Voluptates, veniam?</a></li>
+              <li><a href="">Magni, dolorem!</a></li>
+              <li><a href="">Earum, dolor?</a></li>
+              <li><a href="">Ducimus, pariatur.</a></li>
+              <li><a href="">Consectetur, inventore.</a></li>
+            </ul>
+            </div>
+          </div>
+          <!-- /.col-md-4 -->
+          <div class="col-md-4">
+            <div class="list-group">
+              <ul>
+              <li><a href="">Lorem, ipsum.</a></li>
+              <li><a href="">Ipsa, sed?</a></li>
+              <li><a href="">Enim, nulla?</a></li>
+              <li><a href="">Voluptates, veniam?</a></li>
+              <li><a href="">Magni, dolorem!</a></li>
+              <li><a href="">Earum, dolor?</a></li>
+              <li><a href="">Ducimus, pariatur.</a></li>
+              <li><a href="">Consectetur, inventore.</a></li>
+            </ul>
+            </div>
+          </div>
+          <!-- /.col-md-4 -->
+
+          <h6 class="pt-3 pb-2">popular cities to  buy properties</h6>
+          <hr>
+          <div class="col-md-4">
+            <div class="list-group">
+              <ul>
+              <li><a href="">Lorem, ipsum.</a></li>
+              <li><a href="">Ipsa, sed?</a></li>
+              <li><a href="">Enim, nulla?</a></li>
+              <li><a href="">Voluptates, veniam?</a></li>
+              <li><a href="">Magni, dolorem!</a></li>
+              <li><a href="">Earum, dolor?</a></li>
+              <li><a href="">Ducimus, pariatur.</a></li>
+              <li><a href="">Consectetur, inventore.</a></li>
+            </ul>
+            </div>
+          </div>
+          <!-- /.col-md-4 -->
+          <div  class="col-md-4 ">
+            <div class="list-group">
+              <ul>
+              <li><a href="">Lorem, ipsum.</a></li>
+              <li><a href="">Ipsa, sed?</a></li>
+              <li><a href="">Enim, nulla?</a></li>
+              <li><a href="">Voluptates, veniam?</a></li>
+              <li><a href="">Magni, dolorem!</a></li>
+              <li><a href="">Earum, dolor?</a></li>
+              <li><a href="">Ducimus, pariatur.</a></li>
+              <li><a href="">Consectetur, inventore.</a></li>
+            </ul>
+            </div>
+          </div>
+          <!-- /.col-md-4 -->
+          <div class="col-md-4">
+            <div class="list-group">
+              <ul>
+              <li><a href="">Lorem, ipsum.</a></li>
+              <li><a href="">Ipsa, sed?</a></li>
+              <li><a href="">Enim, nulla?</a></li>
+              <li><a href="">Voluptates, veniam?</a></li>
+              <li><a href="">Magni, dolorem!</a></li>
+              <li><a href="">Earum, dolor?</a></li>
+              <li><a href="">Ducimus, pariatur.</a></li>
+              <li><a href="">Consectetur, inventore.</a></li>
+            </ul>
+            </div>
+          </div>
+          <!-- /.col-md-4 -->
+
+        </div>
+        <!-- /.row -->
+        <!-- /.lists-locations -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.popular-locations-wrapper -->
+  </section>
+
+
+</main>
+
+    <footer>
+      
+<nav style="padding-left:71px ; padding-right: 71px;" class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <form class="d-flex">
+        <a  class="nav-link" href="#"><img style="width: 135px;" src="./img/zameen.png" alt=""></a>
+        <a  class="nav-link" href="#"><img style="width: 135px;" src="./img/zameen.png" alt=""></a>
+        <a  class="nav-link" href="#"><img style="width: 135px;" src="./img/zameen.png" alt=""></a>
+        <a  class="nav-link" href="#"><img style="width: 135px;" src="./img/zameen.png" alt=""></a>
+        <a  class="nav-link" href="#"><img style="width: 135px;" src="./img/zameen.png" alt=""></a>
+        <a  class="nav-link" href="#"><img style="width: 135px;" src="./img/zameen.png" alt=""></a>
+      
+      
+    </form>
+  </div>
+</nav>
+
+<section>
+  <div class="final-footer bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="list-group">
+            <h5 style="color:white ;" class="pt-3 pb-3 ps-4 ">Comapny</h5>
+            <ul>
+            <li><a href="">Lorem, ipsum.</a></li>
+            <li><a href="">Ipsa, sed?</a></li>
+            <li><a href="">Enim, nulla?</a></li>
+            <li><a href="">Voluptates, veniam?</a></li>
+            <li><a href="">Magni, dolorem!</a></li>
+            <li><a href="">Earum, dolor?</a></li>
+            <li><a href="">Ducimus, pariatur.</a></li>
+            <li><a href="">Consectetur, inventore.</a></li>
+          </ul>
+          </div>
+          
+        </div>
+
+        <div class="col-md-3">
+          <div class="list-group">
+            <h5 style="color:white ;" class="pt-3 pb-3 ps-4 ">Comapny</h5>
+            <ul>
+            <li><a href="">Lorem, ipsum.</a></li>
+            <li><a href="">Ipsa, sed?</a></li>
+            <li><a href="">Enim, nulla?</a></li>
+            <li><a href="">Voluptates, veniam?</a></li>
+            <li><a href="">Magni, dolorem!</a></li>
+            <li><a href="">Earum, dolor?</a></li>
+            <li><a href="">Ducimus, pariatur.</a></li>
+            <li><a href="">Consectetur, inventore.</a></li>
+          </ul>
+          </div>
+          
+        </div>
+
+        <div class="col-md-3">
+          <div class="list-group">
+            <h5 style="color:white ;" class="pt-3 pb-3 ps-4 ">Comapny</h5>
+            <ul>
+            <li><a href="">Lorem, ipsum.</a></li>
+            <li><a href="">Ipsa, sed?</a></li>
+            <li><a href="">Enim, nulla?</a></li>
+            <li><a href="">Voluptates, veniam?</a></li>
+            <li><a href="">Magni, dolorem!</a></li>
+            <li><a href="">Earum, dolor?</a></li>
+            <li><a href="">Ducimus, pariatur.</a></li>
+            <li><a href="">Consectetur, inventore.</a></li>
+          </ul>
+          </div>
+          
+        </div>
+
+        <div class="col-md-3">
+          <div class="list-group">
+            <h5 style="color:white ;" class="pt-3 pb-3 ps-4 ">Comapny</h5>
+            <ul>
+            <li><a href="">Lorem, ipsum.</a></li>
+            <li><a href="">Ipsa, sed?</a></li>
+            <li><a href="">Enim, nulla?</a></li>
+            <li><a href="">Voluptates, veniam?</a></li>
+            <li><a href="">Magni, dolorem!</a></li>
+            <li><a href="">Earum, dolor?</a></li>
+            <li><a href="">Ducimus, pariatur.</a></li>
+            <li><a href="">Consectetur, inventore.</a></li>
+          </ul>
+          </div>
+          
+        </div>
+
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.final-footer -->
+</section>
+    </footer>
+    
+
+    <!--<div id="bell">
+      
+      
+      <a  href=""> <img src="./icon/icons8-alarm-100.png" alt=""></a>
+      <button></button><img src="./icon/icons8-multiply-96.png" alt=""></button>
+
+    </div>-->
+    
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>

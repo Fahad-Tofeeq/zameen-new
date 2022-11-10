@@ -1,0 +1,143 @@
+.search-bar-wrapper{
+background-color: #33a137;
+}
+.search-bar-wrapper .navbar-expand-lg a{
+   color: #fff;
+   
+    }
+    .search-bar-wrapper .navbar-expand-lg .container-fluid{
+        margin-left: 24px;
+        
+         }
+    .search-bar-wrapper .navbar-collapse ul.navbar-nav li.nav-item  a{
+        color: #fff;
+         }
+ .bottom-nav-bar a img{
+  width: 135px;
+ }
+ .bottom-nav-bar .container-fluid{
+    margin-left: 24px;
+   }
+.form-control{
+    height: 30px;
+    background-color: transparent;
+}
+input.form-control{
+    width: 364px!important;
+}
+.btn-outline-success{
+    height: 30px;
+}
+.search-bar-wrapper .nav-link{
+    color: #fff;
+}
+.explore-cards .col-md-4:focus-visible{
+   transform: scale(1.2)!important;
+   outline-offset: 3rem;
+}
+.hero-class .carousel-inner .carousel-caption{
+    bottom: 8rem!important;
+}
+.hero-class .carousel-inner .down-search{
+    margin: 0px;
+    padding: 0px;
+ }
+.hero-class .carousel-inner .down-search ul li{
+   list-style-type: none;
+  padding-bottom: 0px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.hero-class .carousel-inner .down-search ul li a{
+    color: #0792ea!important;
+    padding-bottom: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+ }
+ .hero-class .carousel-inner .down-search ul li a:first-child{
+    color: #fff;
+ }
+ 
+.hero-class .carousel-inner input.form-control{
+width: 220px!important;
+background-color: #fff;
+height: auto;
+
+}
+.hero-class .carousel-inner .container-fluid button{
+    background-color: #2b892f;
+    color: #fff;
+    }
+
+.explore-cards img,h5:hover{
+    color: rgba(236, 112, 10, 0.425);
+    padding: 0 7px 0 5px;
+    border: 1px solid;
+    border-radius: 2px;
+    
+    outline: 0;
+}
+
+
+.popular-locations-wrapper .list-group ul li{
+    list-style-type: none;
+}
+.popular-locations-wrapper .row{
+    padding-left: 61px;
+    padding-right: 61px;
+}
+
+.popular-locations-wrapper .list-group ul li a{
+   text-decoration: none;
+   color: black;
+}
+.popular-locations-wrapper .list-group ul li a:hover{
+    text-decoration:underline;
+    
+ }
+ .final-footer .list-group ul li {
+    list-style-type: none;
+    color: aliceblue;
+ }
+ .final-footer .list-group ul li a{
+    text-decoration: none;
+    color: aliceblue;
+ }
+ #bell {
+    
+    width: 100%;
+    background: grey;
+    position: fixed;
+    height: 179px;
+    bottom: 0px;
+}
+
+ #bell a img{
+    
+    position: fixed;
+    z-index: 70px;
+    display: inline-block;
+    bottom: 12rem;
+    right: 1rem;
+    background-color: #33a137;
+    padding-top: 1rem;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+#bell button{ 
+    position: fixed;
+    right: 15px;
+    width: 50px;
+    height: 50px; 
+    background-color: transparent;
+    border-style: none;
+}
+#bell button img{ 
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 15px;
+    bottom: 128px;
+}
+
